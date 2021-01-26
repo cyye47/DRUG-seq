@@ -1,0 +1,1 @@
+/da/NS/yech3/drug_seq/drug_seq_mix_spc/160518_NB501111_0013_AHYVTCBGXX,drug_seq_384_R2.fastq,drug_seq_384_R1.fastq,/home/kulkatr1/sabbatical/drug_seq/star_ref_env.sh 
