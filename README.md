@@ -66,3 +66,7 @@ cat *results*.dat |  grep -v Gene  | sort --key 1 >final_compile_results.dat
 #append header line in final results manually. 
 
  
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9a1178050bb0286d5e6801b5b0f62d35003e9c73
