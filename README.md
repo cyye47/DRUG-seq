@@ -30,8 +30,6 @@ Inside "input_text.txt" will look like
 /usr/prog/ns/ngs_workflow_templates/countumi,drug_seq_384_200000_R2.fastq,drug_seq_384_200000_R1.fastq,/usr/prog/ns/ngs_workflow_templates/countumi/star_ref_env.sh
 /usr/prog/ns/ngs_workflow_templates/countumi,drug_seq_400_R2.fastq,drug_seq_400_R1.fastq,/usr/prog/ns/ngs_workflow_templates/countumi/star_ref_env.sh
 
--------------------------------------------------------------
-
 email id [ -e option]
 example: abc@gmail.com
 -------------------------------------------------------------
