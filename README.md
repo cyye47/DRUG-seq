@@ -32,14 +32,12 @@ Inside "input_text.txt" will look like
 
 email id [ -e option]
 example: abc@gmail.com
--------------------------------------------------------------
 
 output directory [-o option]
 example: /XXX/umidemo 
 
 Script will generate "/clscratch/kulkatr1/umidemo" directory and output goes under it. If this directory already exists then it will give error and come out. Either delete directory or provide different name. 
 for example: /XXX/umidemo1
--------------------------------------------------------------
 
 Script base [-s option]
 This is a directory path where all the accessory scripts and sge/cluster automation templates required by the workflow are situated. 
@@ -50,21 +48,12 @@ If you decide to modify script for different use case, then those scripts can si
 for example:
 -s ~/testing_myown_scriptbase
 
-
 Command line looks like:
 
 /usr/prog/ns/ngs_workflow_templates/countumi/run_umi_workflow.sh  -i /usr/prog/ns/ngs_workflow_templates/countumi/input_test.txt  -e abc@gmail.com -o /XXX/demo -f 5 -t 1
-
-
 
 #to merge the result .dat file
 
 cat *results*.dat |  grep -v Gene  | sort --key 1 >final_compile_results.dat
 
-#append header line in final results manually. 
-
- 
-<<<<<<< HEAD
-=======
-
->>>>>>> 9a1178050bb0286d5e6801b5b0f62d35003e9c73
+#append header line in final results manually.
