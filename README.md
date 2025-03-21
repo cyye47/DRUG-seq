@@ -33,14 +33,14 @@ Inside "input_text.txt" will look like
 -------------------------------------------------------------
 
 email id [ -e option]
-example: tripti.kulkarni@novartis.com
+example: abc@gmail.com
 -------------------------------------------------------------
 
 output directory [-o option]
-example: /clscratch/kulkatr1/umidemo 
+example: /XXX/umidemo 
 
 Script will generate "/clscratch/kulkatr1/umidemo" directory and output goes under it. If this directory already exists then it will give error and come out. Either delete directory or provide different name. 
-for example: /clscratch/kulkatr1/umidemo1
+for example: /XXX/umidemo1
 -------------------------------------------------------------
 
 Script base [-s option]
@@ -55,7 +55,7 @@ for example:
 
 Command line looks like:
 
-/usr/prog/ns/ngs_workflow_templates/countumi/run_umi_workflow.sh  -i /usr/prog/ns/ngs_workflow_templates/countumi/input_test.txt  -e tripti.kulkarni@novartis.com -o /clscratch/kulkatr1/demo -f 5 -t 1
+/usr/prog/ns/ngs_workflow_templates/countumi/run_umi_workflow.sh  -i /usr/prog/ns/ngs_workflow_templates/countumi/input_test.txt  -e abc@gmail.com -o /XXX/demo -f 5 -t 1
 
 
 
